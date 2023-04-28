@@ -2,7 +2,7 @@
 /*
  * 链接数据库公共文件
  * */
-$conn=mysql_connect('localhost','root','root');
+$conn=mysql_connect('localhost:3306','xczlb','Zxcvbnm123@zl');
 if(!$conn){
     echo "链接失败";
     exit;
